@@ -1,0 +1,28 @@
+{
+  "name": "milestonebot",
+  "version": "1.0.0",
+  "description": "Telegram Bot to show the LMI",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js",
+    "broadcast": "node cron.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iota-community/IOTA-Telegram-Milestone-Bot.git"
+  },
+  "author": "Cryptec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iota-community/IOTA-Telegram-Milestone-Bot/issues"
+  },
+  "homepage": "https://github.com/iota-community/IOTA-Telegram-Milestone-Bot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-cron": "^3.0.0",
+    "node-telegram-bot-api": "^0.50.0",
+    "telegraf": "^4.2.1",
+    "twitter": "^1.7.1"
+  }
+}
