@@ -1,4 +1,4 @@
-# einfachIOTA Telegram Helper Bot
+# BigBrainChain Telegram Helper Bot
 A Telegram Bot supporting with links, fetch tweets and so on. 
 
 ## install
